@@ -1,0 +1,43 @@
+html, body {
+    background: linear-gradient(180deg, rgba(158,158,158,1) 0%, rgba(0,0,0,1) 100%);
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box {
+    width: 600px;
+    background-color: rgba(151, 151, 151, 0.623);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 10px;
+}
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 75px;
+    background-color: black;
+    float: right;
+    margin-right: 50px;
+}
+.square {
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    float: right;
+    margin-right: 50px;
+}
+.bigcircle {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 125px;
+    margin: -125px;
+    overflow: visible;
+    display: flex;
+    justify-content:left;
+    align-self: center;
+}

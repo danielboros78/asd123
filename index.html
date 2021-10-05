@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="bigcircle"></div>
+        <div class="box">
+            <div class="instruction"><h1>Kör</h1></div>
+            <div class="circle"></div>
+            <div class="inputFields">
+                <p>Kör sugara: <input type="number" name="sugar" id="sugar" onchange="korSzamol()"> m</p>
+                <p>Kör kerülete: <input type="number" name="Kkerulet" id="Kkerulet" disabled> m</p>
+                <p>Kör területe: <input type="number" name="Kterulet" id="Kterulet" disabled> m<sup>2</sup></p>
+            </div>
+
+            <div class="instruction"><h1>Téglalap</h1></div>
+            <div class="square"></div>
+            <div class="inputFields">            
+                <p>Oldal hossza: <input type="number" name="hossz" id="hossz" onchange="teglalapSzamol()"> m</p>
+                <p>Oldal szélessége: <input type="number" name="szelesseg" id="szelesseg" onchange="teglalapSzamol()"> m</p>
+                <p>Területe: <input type="number" name="tlTerulet" id="tlTerulet" disabled> m<sup>2</sup></p>
+                <p>Kerülete: <input type="number" name="tlKerulet" id="tlKerulet" disabled> m</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
